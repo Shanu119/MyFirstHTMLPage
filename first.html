@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUBT</title>
+</head>
+<body>
+    <style>@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+        .glass{
+              background: rgba(145, 74, 74, 0.281);  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); 
+        backdrop-filter: blur( 3px );
+        -webkit-backdrop-filter: blur( 3px );
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+        }
+        body{
+            background-color: rgba(241, 241, 241, 0.733);
+        }
+        h2{
+            font-family: 'Lobster', cursive; 
+        }
+        b{
+            color: rgb(179, 43, 156);
+        }
+            h5 {
+                position: absolute;
+                top: -15px;
+                right: 10px;
+                }
+                .slowFade {
+                    display: flex;
+                    align-items: flex-start;
+                    background: #fff;
+                    height: 100vh;
+                    overflow: hidden;
+                    position: relative;
+                }
+                .slowFade .slide img {
+                    position: absolute;
+                    min-width: 100%;
+                    min-height: 50%;
+                    height: 50;
+                    background: #000;
+                    -webkit-backface-visibility: hidden;
+                            backface-visibility: hidden;
+                    opacity: 0;
+                    transform: scale(1.5) rotate(15deg);
+                    -webkit-animation: slowFade 32s infinite;
+                            animation: slowFade 32s infinite;
+                }
+                .slowFade .slide:nth-child(3) img {
+                    -webkit-animation-delay: 8s;
+                            animation-delay: 8s;
+                }
+                .slowFade .slide:nth-child(2) img {
+                    -webkit-animation-delay: 16s;
+                            animation-delay: 16s;
+                }
+                .slowFade .slide:nth-child(1) img {
+                    -webkit-animation-delay: 24s;
+                            animation-delay: 24s;
+                }
+                @keyframes slowFade {
+                    25% {
+                        opacity: 1;
+                        transform: scale(1) rotate(0);
+                    }
+                    40% {
+                        opacity: 0;
+                    }
+                } 
+                @-webkit-keyframes slowFade {
+                    25% {
+                        opacity: 1;
+                        transform: scale(1) rotate(0);
+                    }
+                    40% {
+                        opacity: 0;
+                    }
+                }    
+        </style>
+        </div>
+        <div class="glass"><img src="bubt (2).png" height="100px" alt="" srcset="">
+        <h5><img src="BUBT-Logo.png" height="130" alt=""></h5> 
+            <br>
+            <br>
+            <br> 
+        <marquee behavior="" direction=""><h2>Last date of <b>"Summer2022"</b>Admission  26/5/2022</h2></marquee>
+        <input type="button" value=" Home ">
+        <input type="button" value="About">
+        <input type="button" value="Faculty">
+        <input type="button" value="Academic">
+        <input type="button" value="Admission">
+        <input type="button" value="Students">
+        <input type="button" value="Clubs">
+        <input type="button" value="Contacts">
+        <input type="button" value="                                   search                                    ">
+        <div class="slides slowFade">
+            <div class="slide">
+                <img src="bubt1.jpg" height="70px"alt="img"/>
+            </div>
+            <div class="slide">
+                <img src="bubt10.jpg" height="70px"alt="img"/>
+            </div>
+            <div class="slide">
+                <img src="bubt3.jpg" height="70px"alt="img"/>
+            </div>
+            <div class="slide">
+                <div class="slide">
+                    <img src="BUBT.jpg" height="70px"alt="img"/>
+                </div>
+                <img src="bubt7.jpg" height="70px"alt="img"/>
+            </div>
+        </div>
+</body>
+</html>
